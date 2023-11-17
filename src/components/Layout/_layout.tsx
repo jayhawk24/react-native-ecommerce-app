@@ -2,6 +2,7 @@
 import { NativeWindStyleSheet } from 'nativewind'
 import Home from '../Home/home'
 import useLoadedFonts from '../../hooks/useLoadedFonts'
+import Splash from '../../screens/Splash/SplashScreen'
 
 // For Web platform
 NativeWindStyleSheet.setOutput({
@@ -12,8 +13,7 @@ export default function Layout() {
     const fontsLoaded = useLoadedFonts()
 
     if (!fontsLoaded) {
-        //   return <SplashScreen />
-        return null
+        return <Splash />
     }
 
     // Render the children routes now that all the assets are loaded.
