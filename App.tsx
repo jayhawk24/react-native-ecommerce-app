@@ -7,10 +7,7 @@ type Props = {}
 
 const App = (props: Props) => {
   return (
-    <View className="flex-1 items-center justify-center bg-cyan-400">
-      <Text className="font-interBold">Test</Text>
-      <Layout />
-    </View>
+    <Layout />
   )
 }
 

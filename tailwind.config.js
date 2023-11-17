@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        interLight: ["Inter_300Light"],
-        interRegular: ["Inter_400Regular"],
-        interMedium: ["Inter_500Medium"],
-        interBold: ["Inter_700Bold"],
+        "font-light": ["Inter_300Light"],
+        "font-body": ["Inter_400Regular"],
+        "font-semibold": ["Inter_500Medium"],
+        "font-bold": ["Inter_700Bold"],
       },
     },
   },
