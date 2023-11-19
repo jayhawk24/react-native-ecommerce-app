@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import useLoadedFonts from './src/hooks/useLoadedFonts';
+import Home from './src/components/Home/home';
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
@@ -25,12 +25,6 @@ export default function App() {
   }
 
   return (
-    <View
-      style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
-      onLayout={onLayoutRootView}>
-      <Text>
-        Laza
-      </Text>
-    </View>
+    <Home />
   );
 }

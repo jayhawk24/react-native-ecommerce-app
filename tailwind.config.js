@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "font-light": ["Inter_300Light"],
-        "font-body": ["Inter_400Regular"],
-        "font-semibold": ["Inter_500Medium"],
-        "font-bold": ["Inter_700Bold"],
+        "inter-light": ["Inter_300Light"],
+        "inter-body": ["Inter_400Regular"],
+        "inter-semibold": ["Inter_500Medium"],
+        "inter-bold": ["Inter_700Bold"],
       },
       colors: {
         "primary": { DEFAULT: '#9775FA', 100: '#FFFFFF', 200: '#F0EBFE', 300: '#D2C4FD', 400: '#B59CFB', 500: '#9775FA', 600: '#6E3FF8', 700: '#4509F6', 800: '#3607C0', 900: '#27058A', 950: '#1F046F' },

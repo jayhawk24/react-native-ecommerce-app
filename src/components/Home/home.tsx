@@ -1,14 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from 'react-native';
 import useLoadedFonts from "../../hooks/useLoadedFonts";
+import BannerScreen from "../../screens/Banner/BannerScreen";
 
 export default function Home() {
     const fonts = useLoadedFonts()
 
     return (
-        <View className="flex-1 items-center justify-center bg-primary">
-            <Text className="font-interBold">LAZA</Text>
-            <StatusBar style="auto" />
-        </View>
+        <BannerScreen />
     );
 }
